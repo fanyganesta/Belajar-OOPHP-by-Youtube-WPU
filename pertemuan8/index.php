@@ -73,7 +73,7 @@
         public $durasi;
 
         public function __CONSTRUCT($kategori, $judul, $penulis, $penerbit, $harga, $durasi){
-            $this->durasi = $durasi ?? 10;
+            $this->durasi = ($durasi != '') ? $durasi : 10;
             parent::__CONSTRUCT($kategori, $judul, $penulis, $penerbit, $harga);
         }
 
@@ -93,9 +93,53 @@
         }
     }
 
-    $produk2 = new Produk('Film', 'Contoh Aja','','','');
-    echo $produk2->tampilDetail();
-    $produk1 = new Film('Film', 'The Man', '','',300000, 120);
+    class Game extends Produk {
+        public $playTime;
+
+        public function __CONSTRUCT($kategori, $judul, $penulis, $penerbit, $harga, $playTime){
+            parent::__CONSTRUCT($kategori, $judul, $penulis, $penerbit, $harga);
+            $this->playTime = ($playTime != '') ? $playTime : 0;
+        }
+
+        public function strGame(){
+            $str = "<li> Durasi Permainan: ~ $this->playTime, menit </li>";
+            return $str;
+        }
+
+        public function tampilDetail(){
+            $datas = parent::getStringLabel();
+            $datas[1] = $datas[1].$this->strGame();
+            return $this->gabungStr($datas);
+        }
+    }
+
+
+    class Buku extends Produk{
+        public $halaman;
+
+        public function __CONSTRUCT($kategori, $judul, $penulis, $penerbit, $harga, $halaman){
+            parent::__CONSTRUCT($kategori, $judul, $penulis, $penerbit, $harga);
+            $this->halaman = ($halaman != '') ? $halaman : 0;
+        }
+
+        public function strBook(){
+            return $str = "<li>Halaman: $this->halaman halaman </li>";
+        }
+
+        public function tampilDetail(){
+            $datas = parent::getStringLabel();
+            $datas[1] = $datas[1].$this->strBook();
+            return $this->gabungStr($datas);
+        }
+    }
+
+    $produk1 = new Produk('Film', 'Contoh Aja','','','');
     echo $produk1->tampilDetail();
+    $produk2 = new Film('Film', 'The Man', '','',300000, 120);
+    echo $produk2->tampilDetail();
+    $produk3 = new Game('Game', 'The Game', '', '', 100000, '');
+    echo $produk3->tampilDetail();
+    $produk4 = new Buku('Buku', 'The Book', '', '', 30000, 150);
+    echo $produk4->tampilDetail();
 ?>
 
