@@ -73,6 +73,10 @@
             <h4>Abstract Class (Pertemuan 13-14)</h4>
             <p><b>Abstract Class</b> adalah sebuah class yang mencerminkan ide atau struktur dasar dari class turunan yang mengimplementasikannya. Class ini tidak bisa diinstansiasi kecuali turunannya. Di dalam class abstrak ini minimal memiliki 1 method abstrak tanpa isi, hanya disediakan interfacenya saja.<p>
         </li>
+        <li>
+            <h4>Interface (Pertemuan 15)</h4>
+            <p><b>Interface</b> adalah sebuah class yang tidak memiliki properti dan body method. Fungsinya adalah menetapkan method apa saja yang harus dibuat oleh <b>Class Implementasinya</b> di mana body dari method yang akan digunakan baru dibuat/dibentuk di class implementasi dari interface ini.</p>
+        </li>
     </ol>
     <ul>
         <li><a href="pertemuan2-3/">Pertemuan 2-3</a></li>
@@ -82,6 +86,8 @@
         <li><a href="pertemuan8/">Pertemuan 8</a></li>
         <li><a href="pertemuan9-10/">Pertemuan 9-10</a></li>
         <li><a href="pertemuan11-12/">Pertemuan 11-12</a></li>
+        <li><a href="pertemuan13-14/">Pertemuan 13-14</a></li>
+        <li><a href="pertemuan15/">Pertemuan 15</a></li>
     </ul>
 
 </body>
