@@ -68,6 +68,11 @@
                 <li>1. define('NAMA_KONSTANTA', 'nilai_konstanta')</li>
                 <li>2. const NAMA_KONSTANTA = 'nilai_konstanta'</li>
             </ul>
+        </li>
+        <li>
+            <h4>Abstract Class (Pertemuan 13-14)</h4>
+            <p><b>Abstract Class</b> adalah sebuah class yang mencerminkan ide atau struktur dasar dari class turunan yang mengimplementasikannya. Class ini tidak bisa diinstansiasi kecuali turunannya. Di dalam class abstrak ini minimal memiliki 1 method abstrak tanpa isi, hanya disediakan interfacenya saja.<p>
+        </li>
     </ol>
     <ul>
         <li><a href="pertemuan2-3/">Pertemuan 2-3</a></li>
