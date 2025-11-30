@@ -77,6 +77,10 @@
             <h4>Interface (Pertemuan 15)</h4>
             <p><b>Interface</b> adalah sebuah class yang tidak memiliki properti dan body method. Fungsinya adalah menetapkan method apa saja yang harus dibuat oleh <b>Class Implementasinya</b> di mana body dari method yang akan digunakan baru dibuat/dibentuk di class implementasi dari interface ini.</p>
         </li>
+        <li>
+            <h4>Autoloading (Pertemuan 16)</h4>
+            <p><b>Autoloading</b> berguna untuk kita ketika menggunakan penulisan standard untuk class menggunakan satu file per-Class. Jika begini, maka kita perlu menggunakan 'require' sangat banyak dan berulang kali ketika file utama membutuhkan file class lain. Fungsi ini menggunakan library built_in PHP yakni spl_autoload_register();</p>
+        </li>
     </ol>
     <ul>
         <li><a href="pertemuan2-3/">Pertemuan 2-3</a></li>
@@ -88,6 +92,7 @@
         <li><a href="pertemuan11-12/">Pertemuan 11-12</a></li>
         <li><a href="pertemuan13-14/">Pertemuan 13-14</a></li>
         <li><a href="pertemuan15/">Pertemuan 15</a></li>
+        <li><a href="pertemuan16/">Pertemuan 16</a></li>
     </ul>
 
 </body>
