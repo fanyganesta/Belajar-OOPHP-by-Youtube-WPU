@@ -54,7 +54,20 @@
             <p><b>Setter</b> dan <b>Getter</b> kita butuhkan untuk menghindari penggunaan properti atau method dari luar Class yang kita buat. 
             <p>1. <b>Setter</b> adalah sebuah method yang kita gunakan untuk memberikan nilai pada suatu properti yang memiliki visibilitas <b>Protected</b> atau <b>Private</b>.</p>
             <p>2. <b>Getter</b> adalah sebuah method yang kita gunakan untuk mengambil nilai dari sebuah properti yang memiliki visibilitas <b>Protected</b> atau <b>Private</b>. </p>
-</li>
+        </li>
+        <li>
+            <h4>Static Keyword (Pertemuan 11)</h4>
+            <p><b>Static Keyword</b> adalah cara kita membuat sebuah properti pada suatu Class agar memiliki nilai yang tetap(tidak kembali ke awal instansiasi) walaupun digunakan pada objek objek lain.</p>
+            <p> Misalnya ketika pada objek pertama, kita merubah sebuah properti agar memiliki nilai x + 1 dimana x adalah nilai awal. Maka, ketika kita gunakan properti ini di instansiasi objek ke-2 nilai properti ini adalah x + 1 (tidak kembali ke defaultnya yakni x).</p>
+        </li>
+        <li>
+            <h4>Constanta (Pertemuan 12)</h4>
+            <p><b>Constanta</b> adalah tipe variabel yang memungkinkan nilai variabel tersebut tidak berubah dan tidak dapat diubah kapan pun dan dimanapun selain ketika awal pembuatan</p>
+            <p>Untuk pembuatannya ada 2 cara, yakni:</p>
+            <ul>
+                <li>1. define('NAMA_KONSTANTA', 'nilai_konstanta')</li>
+                <li>2. const NAMA_KONSTANTA = 'nilai_konstanta'</li>
+            </ul>
     </ol>
     <ul>
         <li><a href="pertemuan2-3/">Pertemuan 2-3</a></li>
@@ -63,6 +76,7 @@
         <li><a href="pertemuan6-7/">Pertemuan 6-7</a></li>
         <li><a href="pertemuan8/">Pertemuan 8</a></li>
         <li><a href="pertemuan9-10/">Pertemuan 9-10</a></li>
+        <li><a href="pertemuan11-12/">Pertemuan 11-12</a></li>
     </ul>
 
 </body>
