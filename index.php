@@ -36,16 +36,33 @@
             <p>2. <b>Inheritance</b> efektif digunakan karena dalam 1 objek, sangat memungkinkan memiliki banyak variasi yang memiliki banyak fitur,fungsional, ataupun perilaku yang berbeda beda juga. Sehingga dengan <b>Child Class</b> yang mewarisi properti dan method dari <b>Parent Class</b>-nya kita akan mudh untuk menerapkan fitu/fungsionalitas lain yang sangat bergantung dari jenis <b>Object</b> yang akan dibuat.
         </li>
         <li>
-            <h4>Penggunaan Overriding</h4>
+            <h4>Penggunaan Overriding (Pertemuan 8)</h4>
             <p><b>Overriding</b> adalah sebuah cara dimana kita memanfaatkan properti atau method dari <b>Parent Class</b> untuk digunakan sekaligus menambah fungsionalitas lain melalui <b>Child Class</b>
         </li>
+        <li>
+            <h4>Pengenalan Visibilitas Properti dan Mehtod (Pertemuan 9)</h4>
+            <p>1. <b>Visibilitas</b> adalah tentang membatasi penggunaan sebuah properti atau method dari <b>Parent Class</b> apakah diperbolehkan untuk diakses oleh <b>Child Class</b>.</p>
+            <p>2. Terdapat 3 jenis visibility, yakni:</p>
+            <ul>
+                <li><b>Public:</b> Yakni suatu properti atau method bisa diakses diluar Class (Parent maupun Child) atau dengan kata lain dapat diakses langsung dari objek yang dibuat.</li>
+                <li><b>Protected:</b> Yakni suatu properti atau method hanya bisa diakses oleh Parent maupun Child, tidak bisa dari luar (langsung dari objek).</li>
+                <li><b>Private</b> Yakni sebuah properti atau method hanya bisa diakses oleh Class itu sendiri (tidak bisa diakses dari luar maupun dari class lain).</li>
+            </ul>
+        </li>
+        <li>
+            <h4>Access Modifier Setter dan Getter (Pertemuan 10)</h4>
+            <p><b>Setter</b> dan <b>Getter</b> kita butuhkan untuk menghindari penggunaan properti atau method dari luar Class yang kita buat. 
+            <p>1. <b>Setter</b> adalah sebuah method yang kita gunakan untuk memberikan nilai pada suatu properti yang memiliki visibilitas <b>Protected</b> atau <b>Private</b>.</p>
+            <p>2. <b>Getter</b> adalah sebuah method yang kita gunakan untuk mengambil nilai dari sebuah properti yang memiliki visibilitas <b>Protected</b> atau <b>Private</b>. </p>
+</li>
     </ol>
     <ul>
         <li><a href="pertemuan2-3/">Pertemuan 2-3</a></li>
         <li><a href="pertemuan4/">Pertemuan 4</a></li>
         <li><a href="pertemuan5/">Pertemuan 5</a></li>
         <li><a href="pertemuan6-7/">Pertemuan 6-7</a></li>
-        <li><a href="pertemuan8/">Pertemuan 8</a><li>
+        <li><a href="pertemuan8/">Pertemuan 8</a></li>
+        <li><a href="pertemuan9-10/">Pertemuan 9-10</a></li>
     </ul>
 
 </body>
