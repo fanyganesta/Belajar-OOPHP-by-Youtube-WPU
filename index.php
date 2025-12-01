@@ -81,6 +81,11 @@
             <h4>Autoloading (Pertemuan 16)</h4>
             <p><b>Autoloading</b> berguna untuk kita ketika menggunakan penulisan standard untuk class menggunakan satu file per-Class. Jika begini, maka kita perlu menggunakan 'require' sangat banyak dan berulang kali ketika file utama membutuhkan file class lain. Fungsi ini menggunakan library built_in PHP yakni spl_autoload_register();</p>
         </li>
+        <li>
+            <h4>Namespace (Pertemuan 17)</h4>
+            <p><b>Namespace</b> adalah cara kita untuk mengelompokkan class-class yang telah dibuat agar PHP bisa memahami bahwa suatu class adalah milik kelompok tertentu. Maksudnya, PHP agar mengetahui seuatu class berasal dari kelompok yang mana. Karena, pada dasarnya PHP tidak memperbolehkan kita untuk membuat class dengan nama yang sama walaupun dengan fungsi yang berbeda.</p>
+            <p> Misalnya, kita membuat <b>Class User</b> untuk sebuah fitur <b>Produk</b>. Di sisi lain, kita membuat sebuah <b>Class User</b> lain untuk fitur <b>Admin</b>. Maka agar PHP bisa menjalankan kedua class user (tergantung kita instansiasi yang mana), kita harus mengelompokkan masing masing <b>Class User</b> ini pada kelompok fiturnya masing masing.</p>
+        </li>
     </ol>
     <ul>
         <li><a href="pertemuan2-3/">Pertemuan 2-3</a></li>
@@ -93,6 +98,7 @@
         <li><a href="pertemuan13-14/">Pertemuan 13-14</a></li>
         <li><a href="pertemuan15/">Pertemuan 15</a></li>
         <li><a href="pertemuan16/">Pertemuan 16</a></li>
+        <li><a href="pertemuan17/">Pertemuan 17</a></li>
     </ul>
 
 </body>
